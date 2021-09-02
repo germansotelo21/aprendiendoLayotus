@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="altoLogoTaxisLibres">54dp</dimen>
+    <dimen name="altoLogoTaxisLibresToolBar">34dp</dimen>
+    <dimen name="altoCardView">4dp</dimen>
+</resources>

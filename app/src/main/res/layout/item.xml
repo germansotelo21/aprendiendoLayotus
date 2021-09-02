@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:id="@+id/horaMañana"
+                android:gravity="right"
+                android:layout_gravity="bottom"
+                android:textColor="@color/green"
+                android:textSize="30sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="am"
+                android:id="@+id/horaTarde"
+                android:gravity="right"
+                android:layout_gravity="top"
+                android:textColor="@color/red"
+                android:textSize="30sp">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nombre de la conferencia"
+                android:id="@+id/schedule_Conference"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speaker name"
+                android:id="@+id/schedule_Conference_Speaker"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                android:id="@+id/schedule_Tag"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
